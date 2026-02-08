@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Desafío Condiciones JavaScript</title>
+  <style>
+  #stickers {
+    display: flex;
+    gap: 20px;
+  }
+</style>
+
+</head>
+<body>
+
+  <h2>Ejercicio 1 - IMAGEN UNICA CON BORDE ROJO AL HACER CLICK</h2>
+  
+  <img id="imgBorde" src="../desafio-condiciones-javascript/assets/img/gorila.png">
+  
+  
+    <h2>Ejercicio 2 - 10 STICKERS DE 3 TIPOS A SELECCIONAR</h2>
+
+  <div id="stickers">
+    <div>
+        <img src="../desafio-condiciones-javascript/assets/img/stiker-raqueta.png" width="150">
+        <br>
+        <input id="s1" type="number" value="0" min="0" step="1">
+    </div>
+    
+    <div>
+        <img src="../desafio-condiciones-javascript/assets/img/stiker-cancha.png" width="150">
+        <br>
+        <input id="s2" type="number" value="0" min="0" step="1">
+    </div>
+
+        <div>
+        <img src="../desafio-condiciones-javascript/assets/img/stiker-zapatillas.png" width="190">
+        <br>
+        <input id="s3" type="number" value="0" min="0" step="1">
+    </div>
+  </div>
+  
+    <button id="btnStickers">Verificar</button>
+  <p id="resultadoStickers"></p>
+
+   <h2>Ejercicio 3 - PASSWORD</h2>
+  <select id="p1">
+    <option value=""></option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+
+  </select>
+  <select id="p2">
+    <option value=""></option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+  </select>
+  <select id="p3">
+    <option value=""></option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+  </select>
+
+  <button id="btnPass">Ingresar</button>
+  <p id="resultadoPass"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
